@@ -27,7 +27,6 @@ function format() {
     n_filename="${o_filename/Songspk.LINK/$replace_with}"
     n_filename="${n_filename/Songspk.LIVE/$replace_with}"
     n_filename="${n_filename/Songspk.SITE/$replace_with}"
-    n_filename="${n_filename/Songspk.SITE/$replace_with}"
     n_filename="${n_filename//[[]]/$replace_with}"
     n_filename="${n_filename// ./.}"
     eyeD3 --remove-images "$completename"
