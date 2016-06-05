@@ -20,7 +20,7 @@ function loop() {
 function format() {
     #echo "$1"
     completename=$1
-    o_filename=$(basename "$completename" .txt)
+    o_filename=$(basename "$completename")
     o_dir=$(dirname "$completename")
     echo $o_filename
     replace_with=
